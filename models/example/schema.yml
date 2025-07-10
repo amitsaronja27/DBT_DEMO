@@ -11,7 +11,7 @@ models:
                 - unique
                 - not_null
 
-    - name: my_second_dbt_model
+    - name: stg_customers.sql
       description: "A starter dbt model"
       columns:
           - name: id
